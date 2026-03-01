@@ -3,6 +3,12 @@
 The Scenar Web application was created and deployed for a holistic therapist to help promote her services. 
 The therapist treats patients with a tool named Scenar, Six Laser TS, Reiki and classic massage.
 Scenar therapy helps to relieve pain and support healing through gentle electrical impulses.
+
+Check the site here:
+<br>
+[scenar-m-bs.bg](https://scenar-m-bs.bg/)
+<br>
+
 The website features a home page, that explains:
 <br>
 - Holistic medicine is a better choice for your body, mind and overall health
