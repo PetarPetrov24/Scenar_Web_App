@@ -1,0 +1,62 @@
+.laser-title-page h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0077b6;
+}
+
+.laser-definition, .laser-way-of-working, .laser-main-advantages,
+.laser-suitable-states, .conclusion-of-laser {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+.laser-definition h4, .laser-way-of-working h4, .laser-main-advantages h4,
+.laser-suitable-states h4, .conclusion-of-laser h4{
+    font-size: 24px;
+    color: #0077b6; /* same calm deep blue */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #4ac1f7; /* underline heading */
+    padding-bottom: 0.3em;
+    width: 100%;
+    text-align: left;
+}
+
+.laser-definition p, .laser-way-of-working p, .laser-main-advantages p,
+.laser-suitable-states p, .conclusion-of-laser p{
+    max-width: 900px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.laser-suitable-states p {
+    padding-bottom: 1em;
+}
+
+.laser-definition ul, .laser-main-advantages ul {
+    font-size: 14px;
+    margin-bottom: 2em;
+    line-height: 1.6;
+    text-align: left;
+    list-style-position: inside;
+    color: #555;
+}
+
+.laser-definition li, .laser-main-advantages li {
+    margin-bottom: 0.5em;
+}
+
+.laser-definition h4:not(:first-child) {
+    margin-top: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #ddd;
+}
+
+

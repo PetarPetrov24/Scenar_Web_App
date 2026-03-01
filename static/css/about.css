@@ -1,0 +1,137 @@
+#introduction, #education, #experience, #services {
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+#introduction,#education, #experience, #services {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#introduction h4, #education h4, #experience h4, #services h4 {
+    font-size: 24px;
+    color: #0077b6; /* same calm deep blue */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #4ac1f7; /* underline heading */
+    padding-bottom: 0.3em;
+    width: 100%;
+    text-align: left;
+}
+
+#introduction .intro-text p, #education p, #experience p, #services p {
+    max-width: 900px;
+    margin-top: 1em;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#introduction p:not(:first-child) {
+    padding-top: 0.5em;
+}
+
+#introduction img {
+    width: 300px;
+    height: auto;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+
+.intro-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5em;
+}
+
+.certifications {
+    width: 400px;
+    height: 300px;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}
+
+.education-outer-scope {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+#education p:not(:first-child) {
+    padding-top: 0.4em;
+}
+
+.experience-outer-scope img {
+    width: 300px;
+    height: 300px;
+    margin-top: 2em;
+    border-radius: 0.5em;
+}
+
+.patient-treatment {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5em;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+    .patient-treatment img {
+        width: 100%; /* Set width to 100% of the container, making it responsive */
+        max-width: 185px; /* Optional: limit the max width to 250px */
+        height: auto; /* Maintain the aspect ratio */
+        margin-bottom: 1em; /* Add some space between images for better separation */
+    }
+
+    .patient-treatment {
+        gap: 5em;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 768px) {
+    .introduction {
+        width: 100%;
+        height: auto;
+    }
+
+    #introduction .intro-text p, #education p, #experience p, #services p {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+    }
+
+    #introduction img {
+        width: 150px;
+    }
+
+    .education {
+        width: 100%;
+        height: auto;
+    }
+
+    .certifications {
+        width: 150px;
+        height: auto;
+    }
+
+    .experience {
+        width: 100%;
+        height: auto;
+    }
+
+    .patient-treatment {
+        width: 100px;
+        height: auto;
+        gap: 2.5em;
+    }
+
+    .services {
+        width: 100%;
+        height: auto;
+    }
+}

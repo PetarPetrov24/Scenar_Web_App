@@ -1,0 +1,97 @@
+.reyki-title-page h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0077b6;
+}
+
+.definition, .questions-and-answers, .reyki-ways-of-working, .performance-of-procedure,
+.is-procedure-painful, .conditions, .reyki-efficiency, .contraindications,
+.patient-feedback, .session-duration, .efficiency-of-reyki {
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+.definition, .questions-and-answers, .reyki-ways-of-working, .performance-of-procedure,
+.is-procedure-painful, .conditions, .reyki-efficiency, .contraindications,
+.patient-feedback, .session-duration,
+.efficiency-of-reyki  {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+.definition h4, .questions-and-answers h4, .reyki-ways-of-working h4,
+.performance-of-procedure h4, .is-procedure-painful h4, .conditions h4,
+.reyki-efficiency h4, .contraindications h4, .patient-feedback h4,
+.session-duration h4, .efficiency-of-reyki h4 {
+    font-size: 24px;
+    color: #0077b6; /* same calm deep blue */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #4ac1f7; /* underline heading */
+    padding-bottom: 0.3em;
+    width: 100%;
+    text-align: left;
+}
+
+.definition p, .questions-and-answers p, .reyki-ways-of-working p,
+.performance-of-procedure p, .is-procedure-painful p, .conditions p,
+.reyki-efficiency p, .contraindications p, .patient-feedback p,
+.session-duration p, .efficiency-of-reyki p  {
+    max-width: 900px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+
+.questions-and-answers p,
+.questions-and-answers li {
+    font-size: 14px;
+    color: #555; /* dark gray for text */
+    line-height: 1.6;
+    margin-left: 1em;
+}
+
+.questions-and-answers p {
+    margin: 1em 0;
+    text-align: left;
+}
+
+.questions-and-answers ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.questions-and-answers li {
+    margin-bottom: 0.5em;
+}
+
+.reyki-ways-of-working h4:not(:first-child) {
+    margin-top: 1em;
+}
+
+.conditions ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.conditions li {
+    font-size: 14px;
+    color: #555; /* dark gray for text */
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+
+
+

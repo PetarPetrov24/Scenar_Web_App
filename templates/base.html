@@ -1,0 +1,142 @@
+{% load static %}
+
+<!doctype html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}СКЕНАР терапия в Бургас – Магдалена Петрова | Облекчение от болка{% endblock %}</title>
+
+    {% block meta_description %}
+        <meta name="description" content="Професионална СКЕНАР терапия в Бургас с Магдалена Петрова. Облекчаване на болка и възстановяване без медикаменти. Запишете час още днес.">
+    {% endblock %}
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/reset.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'css/reyki_therapy_page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/skenar_therapy_page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/massage_therapy_page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/laser_therapy_page.css' %}">
+
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Main Header -->
+        <header class="main-header">
+            <!-- Header Top -->
+            <div class="top-header">
+                
+                <ul>
+                    <li id="phone-info">
+                        <span class="phone-icon">
+                            <img src="{% static 'images/telephone-icon.png' %}" alt="telephone icon">
+                        </span>
+                        <span class="phone-numbers">
+                            +359 886 060 844
+                        </span>
+                   
+                    </li>
+                    <li id="email-info">
+                        <span class="email-icon">
+                           <img src="{% static 'images/mail-icon.png' %}" alt="mail icon"> 
+                        </span>
+                        <span class="text">magi7210@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Header Top End -->
+
+        <!-- Main Box -->
+        <div class="main-box">
+            <div class="outer-container">
+                <!-- Logo Box -->
+                <div class="logo-box">
+                    <div class="logo">
+                        <!-- Main Place -->
+                        <div class="main-place">
+                            <a href="{% url 'home' %}">
+                                <span class="place">Център по холистична медицина</span>
+                            </a>
+                        </div>
+                        <!-- New text added here -->
+                        <div class="cabinet-and-logo">
+                            <img src="{% static 'images/magura-logo.png' %}" alt="logo">
+                            <a href="{% url 'home' %}">
+                                <span class="additional-place">Кабинет по СКЕНАР-терапия</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <div class="nav-outer">
+                    <div class="nav-collapse-clearfix">
+                        <ul class="nav-clearfix">
+                            <li id="general-menu">
+                                <a title="Начало" href="{% url 'home' %}">Начало</a>
+                            </li>
+                            <li id="menu-item-1">
+                                <a title="За мен" href="{% url 'about' %}">За мен</a>
+                            </li>
+                            <li id="menu-item-2" class="dropdown">
+                                <a href="javascript:void(0);" title="Енергийна медицина">Енергийна медицина</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{% url 'reyki' %}">Рейки терапия</a></li>
+                                    <li><a href="{% url 'scenar' %}">Скенар терапия</a></li>
+                                    <li><a href="{% url 'massage' %}">Класически масаж</a></li>
+                                    <li><a href="{% url 'laser' %}">Лазерна терапия</a></li>
+                                </ul>
+                            </li>
+                            <li id="contact">
+                                <a href="{% url 'contact' %}" class="theme-contact-btn">За контакти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Block -->
+    <main>
+        {% block content %}
+        <!-- Page specific content goes here -->
+        {% endblock %}
+    </main>
+    
+    <footer>
+        <div class="outer-scope">
+            <div class="name-center">
+                <p>Център по холистична медицина</p>
+                <p>Енергийна терапия със СКЕНАР -</p>
+                <p>Магдалена Петрова</p>
+            </div>
+
+            <div class="for-contact">
+                <p>За контакти</p>
+                <p>+359 886 060 844</p>
+            </div>
+            
+            <div class="email-contact">
+                <p>Пишете ни на</p>
+                <p>magi7210@gmail.com</p>
+            </div>
+    
+            <div class="address">
+                <p>Заповядайте на адрес</p>
+                <p>8008 Бургас,</p>
+                <p>ж.к. Изгрев, 92</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="footer-rules">
+        <p>Всички права запазени &copy; Магура 2025</p>
+    </div>
+</body>
+</html>

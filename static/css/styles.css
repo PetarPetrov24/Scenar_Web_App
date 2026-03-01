@@ -1,0 +1,466 @@
+.main-header {
+    padding: 1em;
+    background: linear-gradient(to right, #c6cde4, #a3b1cc, #dee2f3);
+    border-bottom: 1px solid white;
+}
+
+.top-header ul {
+    display: flex;
+    align-items: center;
+    padding-left: 19em;
+    list-style: none;
+    gap: 2em;
+}
+
+#phone-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 12px;
+}
+
+#phone-info .phone-icon img {
+    display: block;
+    width: 12px;
+    height: auto;
+}
+
+#email-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 12px;
+}
+
+#email-info .email-icon img {
+    display: block;
+    width: 12px;
+    height: auto;
+}
+
+.main-place {
+    margin-top: 2.5em;
+    color: #0077b6;
+}
+
+
+.cabinet-and-logo {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    gap: 0.5em; /* Add some space between logo and text */
+}
+
+.logo-box .logo img{
+    width: 120px;
+    padding-bottom: 1em;
+}
+
+
+.logo-box .logo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo-box .logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo .place {
+    font-family: 'Showcard Gothic', sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo .place:hover {
+    color: white;
+}
+
+.logo .additional-place {
+    font-family: 'Showcard Gothic', sans-serif;
+    font-size: 25px;
+    margin-top: 5px; /* Add some space above the new text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #0077b6;
+}
+
+.logo .additional-place:hover {
+    color: white;
+}
+
+.outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8em;
+    font-size: 20px;
+}
+
+.nav-collapse-clearfix ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    list-style: none;
+    color: #0077b6;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    padding: 0.5em 0.5em 0.5em 1em;
+    white-space: nowrap;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #4ac1f7;
+    border-radius: 0.6em;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 1em;
+}
+
+.dropdown:not(:hover) .dropdown-menu {
+    display: none;
+}
+
+.nav-clearfix li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.6em 1.5em;
+}
+
+#general-menu a:hover, #menu-item-1 a:hover, #menu-item-2 a:hover , #contact a:hover {
+    color: #fff;
+    background-color: #4ac1f7;
+    border-radius: 1.5em;
+}
+
+.main-box {
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+main {
+    padding: 4em 0 0 2em;
+    border-bottom: 1px solid white;
+    background: linear-gradient(to bottom right, #e5e6f7, #ccd9f0);
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2em 1.5em;
+    gap: 18em;
+
+}
+
+.feature-box {
+    max-width: 250px;
+    text-align: center;
+}
+
+.feature-box img {
+    display: block;
+    margin: 0 auto 1em auto;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.9);
+    border-radius: 12em;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 0.3em;
+    color: #0077b6;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+.reason-separator {
+    width: 100vw;
+    margin-left: calc(-53vw + 50%);
+    border-top: 1px solid white;
+}
+
+.reason-header {
+    font-size: 30px;
+    color: #0077b6;
+    margin: 0 0 1em 0;
+    border-bottom: 2px solid #4ac1f7;
+    padding-bottom: 0.2em;
+}
+
+.reasons-text {
+    align-items: flex-start;
+}
+
+.reasons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+    gap: 2em;
+    border-bottom: 1px solid white;
+}
+
+.reason-image {
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 1em;
+    margin-left: -28em;
+    margin-top: 0.3em;
+}
+
+
+.reasons-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.reasons li {
+    padding: 0 0 1.5em 0.5em;
+    font-size: 18px;
+    color: #555;
+}
+
+
+.opinion-separator {
+    border-top: 1px solid #e5e5e5;
+    margin-left: calc(-51vw + 50%);
+    padding: 3em 1em;
+}
+
+
+footer {
+    padding: 4em 0 4em 2em;
+    background-color: #212121;
+    border-top: 1px solid #e5e5e5;
+}
+
+.outer-scope {
+    display: flex;
+    justify-content: center; /* Center all items horizontally */
+    align-items: flex-start; /* Align items to the top of each column */
+    gap: 5em; /* Space between columns */
+    flex-wrap: wrap; /* Responsive: stacks on smaller screens */
+    text-align: center; /* Center text inside each column */
+    color: white;
+
+}
+
+.outer-scope > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+.outer-scope div p:first-of-type {
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.outer-scope div p:first-of-type::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #445e74;
+    margin: auto;
+}
+
+.footer-rules {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    border-top: 1px solid #e5e5e5;
+    background-color: #445e74;
+    color: white;
+}
+
+/* Media Query: Mobile screens */
+@media (max-width: 745px) {
+    .top-header ul {
+        padding-left: 4em;
+    }
+
+    .main-place .place {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .nav-collapse-clearfix .nav-clearfix {
+        font-size: 14px;
+    }
+
+    .reasons-container .reason-image {
+        width: 220px;
+    }
+
+    .reasons-container .reasons-text h3 {
+        font-size: 15px;
+    }
+
+    .reasons-container .reasons-text ul li {
+        font-size: 12px;
+        padding-right: 1em;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .top-header ul {
+        padding-left: 9em;
+    }
+
+    .outer-container {
+        gap: 0;
+    }
+
+    .features {
+        gap: 8em;
+    }
+
+    .reasons-container .reason-image {
+        margin-left: 1em;
+    }
+
+    .reasons-container .reasons-text h3 {
+        font-size: 18px;
+    }
+
+    .reasons-container .reasons-text ul li {
+        font-size: 13px;
+
+    }
+
+    .outer-scope {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .outer-scope .name-center,
+    .outer-scope .for-contact,
+    .outer-scope .email-contact,
+    .outer-scope .address {
+        padding-bottom: 1em;
+        margin-bottom: 1.5em;
+        font-size: 1.2rem;
+        border-bottom: 1px solid #a3b1cc;
+    }
+
+    .outer-scope div p:first-of-type::after {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1200px) {
+    .reasons-container .reason-image {
+        margin-left: 5em;
+    }
+
+    .reasons-container .reasons-text h3 {
+        font-size: 28px;
+    }
+
+    .reasons-container .reasons-text ul li {
+        font-size: 15px;
+
+    }
+}
+
+@media (max-width: 1600px) {
+    .top-header ul {
+        padding-left: 2em;
+    }
+
+    .features {
+        gap: 12em;
+    }
+
+    .reasons-container .reason-image {
+        margin-left: 2em;
+    }
+
+    .reasons-container .reasons-text h3 {
+        font-size: 29px;
+    }
+
+    .reasons-container .reasons-text ul li {
+        font-size: 16px;
+
+    }
+}
+
+@media (min-width: 430px) and (max-width: 745px) {
+    .logo .additional-place {
+        font-size: 20px;
+    }
+
+    .nav-collapse-clearfix ul {
+        gap: 0;
+    }
+
+    .nav-clearfix li a {
+        padding: 0.5em 1em;
+    }
+
+    .reasons-container .reasons-text h3 {
+        font-size: 12px;
+    }
+
+    .reasons-container .reasons-text ul li {
+        font-size: 10px;
+    }
+
+    .reasons-container .reason-image  {
+        padding-bottom: 15em;
+        margin-left: 1.5em;
+    }
+
+    .reasons-text {
+        display: block;
+        padding-right: 1em;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+.skenar-title-page h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0077b6;
+}
+
+
+
+.skenar-definition, .skenar-represent, .is-skenar-procedure-painful,
+.appropriate-for, .number-of-procedures, .skenar-contraindications,
+.after-procedure-feeling, .skenar-procedure-duration, .skenar-efficiency {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    background: #f9fcfe; /* same very light blue background */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+.skenar-definition h4, .skenar-represent h4, .is-skenar-procedure-painful h4,
+.appropriate-for h4, .number-of-procedures h4, .skenar-contraindications h4,
+.after-procedure-feeling h4, .skenar-procedure-duration h4, .skenar-efficiency h4 {
+    font-size: 24px;
+    color: #0077b6; /* same calm deep blue */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #4ac1f7; /* underline heading */
+    padding-bottom: 0.3em;
+    width: 100%;
+    text-align: left;
+}
+
+.skenar-definition p, .skenar-represent p, .is-skenar-procedure-painful p,
+.appropriate-for p, .number-of-procedures p, .skenar-contraindications p,
+.after-procedure-feeling p, .skenar-procedure-duration p, .skenar-efficiency p {
+    max-width: 900px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.often-given-questions h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    color: #0077b6;
+
+}
+
+.often-given-questions {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+}
+
+

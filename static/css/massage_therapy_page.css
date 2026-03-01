@@ -1,0 +1,60 @@
+.massage-title-page h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0077b6;
+}
+
+.therapy-classic-massage-definition, .main-usages-of-therapy-massage,
+.massage-techniques, .massage-states, .massage-conducts, .massage-contraindications,
+.side-effects, .often-massage-procedures {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(to bottom right, #c4dce8, #e8eafc, #f9fcfe);
+}
+
+.therapy-classic-massage-definition h4, .main-usages-of-therapy-massage h4,
+.massage-techniques h4, .massage-states h4, .massage-conducts h4, .massage-contraindications h4,
+.side-effects h4, .often-massage-procedures h4 {
+    font-size: 24px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-bottom: 0.3em;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px solid #4ac1f7; /* underline heading */
+    color: #0077b6; /* same calm deep blue */
+}
+
+.therapy-classic-massage-definition p, .main-usages-of-therapy-massage p,
+.massage-techniques p, .massage-states p, .massage-conducts p, .massage-contraindications p,
+.side-effects p, .often-massage-procedures p {
+    max-width: 900px;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    color: #555;
+}
+
+.therapy-classic-massage ul, .main-usages-of-therapy-massage ul,
+.massage-techniques ul, .massage-states ul, .massage-contraindications ul {
+    font-size: 14px;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    text-align: left;
+    list-style-position: inside;
+    color: #555;
+}
+
+.therapy-classic-massage li, .main-usages-of-therapy-massage li,
+.massage-techniques li, .massage-states li, .massage-contraindications li {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+
